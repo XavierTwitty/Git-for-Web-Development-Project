@@ -1,6 +1,15 @@
- 1. What is Semantic HTML? the meaning of elements 
-    2. What is HTML used for? organizing a web page 
-    3. What is an attribute and where do we put it? provide additional information to an element, comes after "="
+ 1. What is Semantic HTML? 
+ 
+ the meaning of elements
+
+    2. What is HTML used for?
+    
+     organizing a web page
+
+    
+    3. What is an attribute and where do we put it?
+     
+     provide additional information to an element, comes after "="
     4. What is the h1 tag used for? How many times should I use it on a page? header, once
     5. Name two tags that have required attributes? class and a href
     6. What do we put in the head of our HTML document? header
@@ -39,7 +48,31 @@
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+
+block elements will start a new line. inline elements do not start a new line
+
     2. What happens when an element is positioned absolutely? 
+
+everything goes underneath position absolute, it does not its hard coded order. 
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+    position relative on the parent.
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+display block :
+. p 
+. header 
+. article
+
+inline : 
+. a 
+. button 
+
+inline-block:
+. input
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+set the width of the content area first.
